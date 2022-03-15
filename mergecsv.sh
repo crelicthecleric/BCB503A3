@@ -1,0 +1,1 @@
+awk 'FNR==1 && NR!=1{next;}{print}' ./data/*/*.ann.features.csv | cut -d, -f14 --complement > ./data/1.0combined.csv

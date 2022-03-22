@@ -2,6 +2,7 @@ import argparse
 import re
 from sklearn.metrics import f1_score
 from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 import pandas as pd

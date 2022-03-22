@@ -21,7 +21,7 @@ def validate_model(input, output, model, numTrees):
     X = data.drop(columns=["activity"])
     X = StandardScaler().fit_transform(X)
     y = data["activity"]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1, stratify=y)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
     
     if model == "SVM":
         clf = SVC()

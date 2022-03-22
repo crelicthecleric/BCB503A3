@@ -1,5 +1,6 @@
 import argparse
 import re
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score
 from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import train_test_split

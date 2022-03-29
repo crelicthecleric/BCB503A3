@@ -3,7 +3,7 @@ Assignment 3 \
 March 29, 2022 \
 Justin Moy, Junpei Xiao, Emmaline Raven**
 # BCB503 Assignment 3 Report
-### For a prettier report go to [github](https://github.com/crelicthecleric/BCB503A3/blob/main/report.md).
+#### For a prettier report go to [github](https://github.com/crelicthecleric/BCB503A3/blob/main/report.md).
 ## A. Description of Data
 The data set has the title “Human Activity Recognition from Continuous Ambient Sensor Data Data Set.” This means that ambient sensors were used to record various human activities, sorted by different household rooms. It has time-series data containing integer and real number values. It contains 37 different attributes. Like most large datasets, it has missing values. The dataset was broken into 21 different CSV files. The files each contain different sets of attributes in a way such that they could be combined into one full dataset. For the purposes of data analysis, they were combined into one dataset (see Data Acquisition and Preprocessing).
 

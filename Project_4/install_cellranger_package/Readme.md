@@ -7,6 +7,7 @@ tar -xzvf cellranger-6.1.2.tar.gz
 ### Get human reference genome
 
 wget https://cf.10xgenomics.com/supp/cell-exp/refdata-cellranger-GRCh38-3.0.0.tar.gz
+
 tar -zxvf refdata-cellranger-GRCh38-3.0.0.tar.gz
 
 ### Note: Sars_cov.gtf  Sars_cov.fa are the reference genome and annotation for Covid-19

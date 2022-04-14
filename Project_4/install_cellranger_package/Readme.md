@@ -12,7 +12,7 @@ tar -zxvf refdata-cellranger-GRCh38-3.0.0.tar.gz
 
 ### Note: Sars_cov.gtf  Sars_cov.fa are the reference genome and annotation for Covid-19
 
-### We then need to combine Human genome and Covid-19 genome together (sample for annotation files, the file with extension .gtf)
+### We then need to combine Human genome and Covid-19 genome together (annotation file is the file with extension .gtf)
 
 The code to combine Human and Covid 19 genome and annotation file: make_ref.sh 
 
